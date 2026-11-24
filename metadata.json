@@ -1,0 +1,6 @@
+{
+  "name": "Easy USB Camera",
+  "description": "Professional portable HDMI monitor for Android using USB HDMI capture cards and UVC video input.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

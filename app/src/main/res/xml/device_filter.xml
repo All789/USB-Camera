@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- USB Video Class (UVC) capture cards and cameras -->
+    <usb-device class="14" />
+    <usb-device class="14" subclass="1" />
+    <usb-device class="14" subclass="2" />
+
+    <!-- Interface Association Descriptors (IAD) for composite Video/Audio capture devices -->
+    <usb-device class="239" subclass="2" protocol="1" />
+    <usb-device class="239" subclass="2" />
+    <usb-device class="239" />
+
+    <!-- MacroSilicon (MS2109, MS2130, etc. - 90% of HDMI USB capture cards) -->
+    <usb-device vendor-id="21325" /> <!-- 0x534D MacroSilicon -->
+    <usb-device vendor-id="2129" />  <!-- 0x0851 MacroSilicon -->
+    <usb-device vendor-id="4057" />  <!-- 0x0FD9 Elgato Cam Link 4K -->
+    <usb-device vendor-id="1204" />  <!-- 0x04B4 Cypress FX3 Capture -->
+    <usb-device vendor-id="1994" />  <!-- 0x07CA AVerMedia -->
+    <usb-device vendor-id="3034" />  <!-- 0x0BDA Realtek -->
+    <usb-device vendor-id="6380" />  <!-- 0x18EC Arkmicro -->
+    <usb-device vendor-id="7758" />  <!-- 0x1E4E Cubeternet -->
+
+    <!-- Generic USB capture cards with audio endpoints -->
+    <usb-device class="1" />
+    <usb-device class="0" />
+</resources>

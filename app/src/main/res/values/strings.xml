@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Easy USB Camera</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-6058390172308737~7850440865</string>
+    <string name="admob_banner_id" translatable="false">ca-app-pub-6058390172308737/9002585484</string>
+</resources>
